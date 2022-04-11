@@ -9,12 +9,12 @@
 
 ## :link: Link to web app(Deployment Link):
 
-https://blancc-page.github.io/angular-ip/
+https://blancc-page.github.io/angular-ip-/
 
 ### :computer: Setup
 To get a local copy up and running follow these simple example steps.
 
-- open your terminal, and run 'git clone https://github.com/blancc-page/angular-ip' to clone the repository to your computer  
+- open your terminal, and run 'git clone https://github.com/blancc-page/angular-ip-' to clone the repository to your computer  
 - cd into the project folder
 - run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
