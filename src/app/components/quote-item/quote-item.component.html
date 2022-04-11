@@ -1,0 +1,15 @@
+<div 
+[ngClass]="{reminder : quote.reminder }" 
+class="quote"
+(dblclick)="onToggle(quote)">
+
+    <h3 title="Double-Click To Like"> 
+        {{ quote.text }}
+         <fa-icon 
+         title="Click To Delete"
+         (click)="onDelete(quote)" 
+         [ngStyle]="{ 'color': color }" 
+         [icon]="faTimes"></fa-icon> 
+        </h3>
+    <p> {{ quote.author }} </p>
+</div>

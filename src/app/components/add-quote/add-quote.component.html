@@ -1,0 +1,22 @@
+<form class="add-form" (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="text">Quote</label>
+        <input 
+        type="text" 
+        name="text"
+        [(ngModel)]="text"
+        id="text" 
+        placeholder="Add Quote">
+    </div>
+
+    <div class="form-control">
+        <label for="author">Author</label>
+        <input type="text" 
+        name="author" 
+        [(ngModel)]="author"
+        id="author" 
+        placeholder="Add Author">
+    </div>
+
+    <input type="submit" value="Save Task" class="btn btn-block">
+</form>

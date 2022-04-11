@@ -1,0 +1,7 @@
+<app-add-quote (onAddQuote)="addQuote($event)"></app-add-quote>
+<app-quote-item 
+*ngFor="let quote of quotes" 
+[quote]="quote" 
+(onDeletequote)="deleteQuote(quote)"
+(onToggleReminder)="toggleReminder(quote)">
+</app-quote-item>
