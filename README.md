@@ -9,7 +9,7 @@
 
 ## :link: Link to web app(Deployment Link):
 
-https://blancc-page.github.io/angular-ip-/
+https://blancc-page.github.io/week1-ip/
 
 ### :computer: Setup
 To get a local copy up and running follow these simple example steps.
